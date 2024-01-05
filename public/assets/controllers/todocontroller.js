@@ -1,7 +1,7 @@
 module.exports = function(app){
 //get request
     app.get('/todo', function(req, res){
-        
+
     });
 };
 //post request
