@@ -1,5 +1,5 @@
 var express = require('express');
-var todoController = require('../controllers/todocontroller');
+var todoController = require('./controllers/todocontroller');
 var app = express();
 //set up template engine
 app.set('view engine', 'ejs');
